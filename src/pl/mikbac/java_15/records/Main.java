@@ -1,11 +1,11 @@
-package com.company.java_14.records;
+package pl.mikbac.java_15.records;
 
 import java.math.BigDecimal;
 
 /**
- * === REQUIRED JDK 14 (non-LTS) ===
+ * === REQUIRED JDK 15 (non-LTS) ===
  * <p>
- * Premier Support Until -> September 2020
+ * Premier Support Until -> March 2021
  * Extended Support Until -> Not Available
  */
 public class Main {
@@ -27,8 +27,6 @@ public class Main {
 
         System.out.println(color.id());
         System.out.println(color.name());
-
-        System.out.println(color);
 
     }
 

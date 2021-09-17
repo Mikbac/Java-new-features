@@ -1,4 +1,4 @@
-package com.company.java_15.sealed_classes.model;
+package pl.mikbac.java_15.sealed_classes.model;
 
 /**
  * === REQUIRED JDK 15 (non-LTS) ===

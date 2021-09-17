@@ -1,4 +1,4 @@
-package com.company.java_17;
+package pl.mikbac.java_17;
 
 /**
  * === REQUIRED JDK 17 (LTS) ===

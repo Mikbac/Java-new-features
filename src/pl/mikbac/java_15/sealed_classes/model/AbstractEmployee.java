@@ -1,12 +1,12 @@
-package com.company.java_17.sealed_classes.model;
+package pl.mikbac.java_15.sealed_classes.model;
 
 import java.math.BigDecimal;
 
 /**
- * === REQUIRED JDK 17 (LTS) ===
+ * === REQUIRED JDK 15 (non-LTS) ===
  * <p>
- * Premier Support Until -> September 2026 (Or later)
- * Extended Support Until -> September 2029 (Or later)
+ * Premier Support Until -> March 2021
+ * Extended Support Until -> Not Available
  */
 public abstract sealed class AbstractEmployee permits ManagerModel, WorkerModel {
 

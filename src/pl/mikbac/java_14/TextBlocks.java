@@ -1,4 +1,4 @@
-package com.company.java_14;
+package pl.mikbac.java_14;
 
 /**
  * === REQUIRED JDK 14 (non-LTS) ===

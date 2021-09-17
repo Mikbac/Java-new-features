@@ -1,15 +1,15 @@
-package com.company.java_15.sealed_classes;
+package pl.mikbac.java_17.sealed_classes;
 
-import com.company.java_15.sealed_classes.model.ManagerModel;
-import com.company.java_15.sealed_classes.model.WorkerModel;
+import pl.mikbac.java_17.sealed_classes.model.ManagerModel;
+import pl.mikbac.java_17.sealed_classes.model.WorkerModel;
 
 import java.math.BigDecimal;
 
 /**
- * === REQUIRED JDK 15 (non-LTS) ===
+ * === REQUIRED JDK 17 (LTS) ===
  * <p>
- * Premier Support Until -> March 2021
- * Extended Support Until -> Not Available
+ * Premier Support Until -> September 2026 (Or later)
+ * Extended Support Until -> September 2029 (Or later)
  */
 public class Main {
 

@@ -1,4 +1,4 @@
-package com.company.java_15.records;
+package pl.mikbac.java_15.records;
 
 import java.math.BigDecimal;
 
