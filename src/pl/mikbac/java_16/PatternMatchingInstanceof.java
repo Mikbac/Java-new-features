@@ -1,12 +1,12 @@
-package pl.mikbac.java_14;
+package pl.mikbac.java_16;
 
 /**
- * === REQUIRED JDK 14 (non-LTS) ===
+ * === REQUIRED JDK 16 (non-LTS) ===
  * <p>
- * Premier Support Until -> September 2020
+ * Premier Support Until -> September 2021
  * Extended Support Until -> Not Available
  */
-public class PatternMatching {
+public class PatternMatchingInstanceof {
 
     public static void main(String[] args) {
         Object obj = "Pankracy";
