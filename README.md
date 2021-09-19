@@ -2,15 +2,15 @@
 
 # Table of contents
 
-* [Java 9 (non-LTS)](#java-9-(non-LTS))
-* [Java 10 (non-LTS)](#java-10-(non-LTS))
-* [Java 11 (LTS)](#java-11-(LTS))
-* [Java 12 (non-LTS)](#java-12-(non-LTS))
-* [Java 13 (non-LTS)](#java-13-(non-LTS))
-* [Java 14 (non-LTS)](#java-14-(non-LTS))
-* [Java 15 (non-LTS)](#java-15-(non-LTS))
-* [Java 16 (non-LTS)](#java-16-(non-LTS))
-* [Java 17 (LTS)](#java-17-(LTS))
+* [Java 9 (non-LTS)](#java-9-non-LTS)
+* [Java 10 (non-LTS)](#java-10-non-LTS)
+* [Java 11 (LTS)](#java-11-LTS)
+* [Java 12 (non-LTS)](#java-12-non-LTS)
+* [Java 13 (non-LTS)](#java-13-non-LTS)
+* [Java 14 (non-LTS)](#java-14-non-LTS)
+* [Java 15 (non-LTS)](#java-15-non-LTS)
+* [Java 16 (non-LTS)](#java-16-non-LTS)
+* [Java 17 (LTS)](#java-17-LTS)
 
 ## Java 9 (non-LTS)
 
@@ -46,7 +46,9 @@ https://openjdk.java.net/projects/jdk/11/
 
 #### Extended Support Until -> September 2026
 
-TO-DO
+* Local-Variable Syntax for Lambda Parameters - "Allow var to be used when declaring the formal parameters of implicitly
+  typed lambda expressions." (https://openjdk.java.net/jeps/323)
+* HTTP Client - "Standardize the incubated HTTP Client API introduced in JDK 9, via JEP 110, and updated in JDK 10." (https://openjdk.java.net/jeps/321)
 
 ## Java 12 (non-LTS)
 
