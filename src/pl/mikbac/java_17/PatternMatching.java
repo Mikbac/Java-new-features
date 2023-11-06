@@ -10,16 +10,16 @@ public class PatternMatching {
 
     public static void main(String[] args) {
         var s1 = getTestOne("12");
-        System.out.println(s1);
+        System.out.println(s1); // String
 
         var s2 = getTestTwo("1200");
-        System.out.println(s2);
+        System.out.println(s2); // 1200 is a big String
 
         var s3 = getTestThree("12");
-        System.out.println(s3);
+        System.out.println(s3); // 12 is a small String
 
         var s4 = getTestFour(null);
-        System.out.println(s4);
+        System.out.println(s4); // It is null!
 
     }
 
@@ -33,25 +33,25 @@ public class PatternMatching {
 
     private static String getTestTwo(final Object obj) {
         return switch (obj) {
-            case Integer i && i < 10 -> "small Integer";
-            case String s1 && s1.length() >= 3 -> s1 + " is a big String";
-            case String s2 && s2.length() < 3 -> s2 + " is a small String";
+            case Integer i when i < 10 -> "small Integer";
+            case String s1 when s1.length() >= 3 -> s1 + " is a big String";
+            case String s2 when s2.length() < 3 -> s2 + " is a small String";
             default -> "Unknown";
         };
     }
 
     private static String getTestThree(final String s) {
         return switch (s) {
-            case String s1 && s1.length() >= 3 -> s1 + " is a big String";
-            case String s2 && s2.length() < 3 -> s2 + " is a small String";
+            case String s1 when s1.length() >= 3 -> s1 + " is a big String";
+            case String s2 when s2.length() < 3 -> s2 + " is a small String";
             default -> "Unknown";
         };
     }
 
     private static String getTestFour(final String s) {
         return switch (s) {
-            case String s1 && s1.length() >= 3 -> s1 + " is a big String";
-            case String s2 && s2.length() < 3 -> s2 + " is a small String";
+            case String s1 when s1.length() >= 3 -> s1 + " is a big String";
+            case String s2 when s2.length() < 3 -> s2 + " is a small String";
             case null -> "It is null!";
             default -> "Unknown";
         };

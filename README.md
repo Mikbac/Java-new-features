@@ -2,6 +2,7 @@
 
 # Table of contents
 
+* [Java 8 (LTS)](#java-8-LTS)
 * [Java 9 (non-LTS)](#java-9-non-LTS)
 * [Java 10 (non-LTS)](#java-10-non-LTS)
 * [Java 11 (LTS)](#java-11-LTS)
@@ -11,6 +12,22 @@
 * [Java 15 (non-LTS)](#java-15-non-LTS)
 * [Java 16 (non-LTS)](#java-16-non-LTS)
 * [Java 17 (LTS)](#java-17-LTS)
+* [Java 21 (LTS)](#java-21-LTS)
+
+## Java 8 (LTS)
+
+https://openjdk.java.net/projects/jdk8/
+
+#### GA Date -> March 2014
+
+#### Premier Support Until ->March 2022
+
+#### Extended Support Until -> December 2030
+
+* Files.lines() - Read all lines from a file as a Stream. Bytes from the file are decoded into characters using the
+  UTF-8 charset. (https://openjdk.java.net/jeps/179) //todo
+
+TO-DO
 
 ## Java 9 (non-LTS)
 
@@ -48,7 +65,8 @@ https://openjdk.java.net/projects/jdk/11/
 
 * Local-Variable Syntax for Lambda Parameters - "Allow var to be used when declaring the formal parameters of implicitly
   typed lambda expressions." (https://openjdk.java.net/jeps/323)
-* HTTP Client - "Standardize the incubated HTTP Client API introduced in JDK 9, via JEP 110, and updated in JDK 10." (https://openjdk.java.net/jeps/321)
+* HTTP Client - "Standardize the incubated HTTP Client API introduced in JDK 9, via JEP 110, and updated in JDK
+  10." (https://openjdk.java.net/jeps/321)
 
 ## Java 12 (non-LTS)
 
@@ -154,3 +172,21 @@ https://openjdk.java.net/projects/jdk/17/
 * Sealed Classes - "Sealed classes and interfaces restrict which other classes or interfaces may extend or implement
   them (https://openjdk.java.net/jeps/409)
 
+## Java 21 (LTS)
+
+#### GA Date -> September 2023
+
+#### Premier Support Until -> September 2028
+
+#### Extended Support Until -> September 2031
+
+* Pattern Matching for switch - "Enhance the Java programming language with pattern matching for switch expressions and
+  statements. Extending pattern matching to switch allows an expression to be tested against a number of patterns, each
+  with a specific action, so that complex data-oriented queries can be expressed concisely and
+  safely." (https://openjdk.org/jeps/441)
+* Virtual Threads - "Introduce virtual threads to the Java Platform. Virtual threads are lightweight threads that
+  dramatically reduce the effort of writing, maintaining, and observing high-throughput concurrent
+  applications." (https://openjdk.org/jeps/444)
+* String Templates (Preview) = "Enhance the Java programming language with string templates. String templates complement
+  Java's existing string literals and text blocks by coupling literal text with embedded expressions and template
+  processors to produce specialized results" (https://openjdk.org/jeps/430)
