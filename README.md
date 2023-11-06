@@ -12,7 +12,11 @@
 * [Java 15 (non-LTS)](#java-15-non-LTS)
 * [Java 16 (non-LTS)](#java-16-non-LTS)
 * [Java 17 (LTS)](#java-17-LTS)
+* [Java 18 (LTS)](#java-18-non-LTS)
+* [Java 19 (LTS)](#java-19-non-LTS)
 * [Java 21 (LTS)](#java-21-LTS)
+
+-------------------------------------------------------------
 
 ## Java 8 (LTS)
 
@@ -29,6 +33,8 @@ https://openjdk.java.net/projects/jdk8/
 
 TO-DO
 
+-------------------------------------------------------------
+
 ## Java 9 (non-LTS)
 
 https://openjdk.java.net/projects/jdk9/
@@ -41,6 +47,8 @@ https://openjdk.java.net/projects/jdk9/
 
 TO-DO
 
+-------------------------------------------------------------
+
 ## Java 10 (non-LTS)
 
 https://openjdk.java.net/projects/jdk/10/
@@ -52,6 +60,8 @@ https://openjdk.java.net/projects/jdk/10/
 #### Extended Support Until -> Not Available
 
 TO-DO
+
+-------------------------------------------------------------
 
 ## Java 11 (LTS)
 
@@ -68,6 +78,8 @@ https://openjdk.java.net/projects/jdk/11/
 * HTTP Client - "Standardize the incubated HTTP Client API introduced in JDK 9, via JEP 110, and updated in JDK
   10." (https://openjdk.java.net/jeps/321)
 
+-------------------------------------------------------------
+
 ## Java 12 (non-LTS)
 
 https://openjdk.java.net/projects/jdk/12/
@@ -82,6 +94,8 @@ https://openjdk.java.net/projects/jdk/12/
   both forms can use either traditional case ... : labels (with fall through) or new case ... -> labels (with no fall
   through), with a further new statement for yielding a value from a switch
   expression." (https://openjdk.java.net/jeps/325)
+
+-------------------------------------------------------------
 
 ## Java 13 (non-LTS)
 
@@ -100,6 +114,8 @@ https://openjdk.java.net/projects/jdk/13/
 * Text Blocks (Preview) - "A text block is a multi-line string literal that avoids the need for most escape sequences,
   automatically formats the string in a predictable way, and gives the developer control over format when
   desired." (https://openjdk.java.net/jeps/355)
+
+-------------------------------------------------------------
 
 ## Java 14 (non-LTS)
 
@@ -123,6 +139,8 @@ https://openjdk.java.net/projects/jdk/14/
 * Pattern Matching for instanceof (Preview) - "Pattern matching allows common logic in a program, namely the conditional
   extraction of components from objects, to be expressed more concisely and safely." (https://openjdk.java.net/jeps/305)
 
+-------------------------------------------------------------
+
 ## Java 15 (non-LTS)
 
 https://openjdk.java.net/projects/jdk/15/
@@ -141,6 +159,8 @@ https://openjdk.java.net/projects/jdk/15/
 * Sealed Classes (Preview) - "Sealed classes and interfaces restrict which other classes or interfaces may extend or
   implement them." (https://openjdk.java.net/jeps/360)
 
+-------------------------------------------------------------
+
 ## Java 16 (non-LTS)
 
 https://openjdk.java.net/projects/jdk/16/
@@ -155,6 +175,8 @@ https://openjdk.java.net/projects/jdk/16/
   extraction of components from objects, to be expressed more concisely and safely." (https://openjdk.java.net/jeps/394)
 * Records - "Records provide a compact syntax for declaring classes which are transparent holders for shallowly
   immutable data." (https://openjdk.java.net/jeps/395)
+
+-------------------------------------------------------------
 
 ## Java 17 (LTS)
 
@@ -171,6 +193,42 @@ https://openjdk.java.net/projects/jdk/17/
   concisely and safely." (https://openjdk.java.net/jeps/406)
 * Sealed Classes - "Sealed classes and interfaces restrict which other classes or interfaces may extend or implement
   them (https://openjdk.java.net/jeps/409)
+
+-------------------------------------------------------------
+
+## Java 18 (non-LTS)
+
+https://openjdk.java.net/projects/jdk/18/
+
+#### GA Date -> March 2022
+
+#### Premier Support Until -> September 2022
+
+#### Extended Support Until -> Not Available
+
+* Simple Web Server (https://openjdk.org/jeps/408)
+* Introduce an @snippet tag for JavaDoc's Standard Doclet, to simplify the inclusion of example source code in API
+  documentation.(https://openjdk.org/jeps/413)
+* Internet-Address Resolution SPI - "Define a service-provider interface (SPI) for host name and address resolution, so
+  that java.net.InetAddress can make use of resolvers other than the platform's built-in
+  resolver." (https://openjdk.org/jeps/418)
+* Deprecate Finalization for Removal (https://openjdk.org/jeps/421)
+
+-------------------------------------------------------------
+
+## Java 19 (non-LTS)
+
+https://openjdk.java.net/projects/jdk/19/
+
+#### GA Date -> September 2022
+
+#### Premier Support Until -> March 2023
+
+#### Extended Support Until -> Not Available
+
+* Port the JDK to Linux/RISC-V - (https://openjdk.org/jeps/422)
+
+-------------------------------------------------------------
 
 ## Java 21 (LTS)
 
@@ -190,3 +248,5 @@ https://openjdk.java.net/projects/jdk/17/
 * String Templates (Preview) = "Enhance the Java programming language with string templates. String templates complement
   Java's existing string literals and text blocks by coupling literal text with embedded expressions and template
   processors to produce specialized results" (https://openjdk.org/jeps/430)
+
+-------------------------------------------------------------
