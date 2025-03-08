@@ -12,9 +12,11 @@
 * [Java 15 (non-LTS)](#java-15-non-LTS)
 * [Java 16 (non-LTS)](#java-16-non-LTS)
 * [Java 17 (LTS)](#java-17-LTS)
-* [Java 18 (LTS)](#java-18-non-LTS)
-* [Java 19 (LTS)](#java-19-non-LTS)
+* [Java 18 (non-LTS)](#java-18-non-LTS)
+* [Java 19 (non-LTS)](#java-19-non-LTS)
 * [Java 21 (LTS)](#java-21-LTS)
+* [Java 22 (non-LTS)](#java-22-non-LTS)
+* [Java 23 (non-LTS)](#java-23-non-LTS)
 
 -------------------------------------------------------------
 
@@ -44,6 +46,8 @@ https://openjdk.java.net/projects/jdk9/
 #### Premier Support Until -> March 2018
 
 #### Extended Support Until -> Not Available
+
+* jshell: The Java Shell (Read-Eval-Print Loop) - (https://openjdk.org/jeps/222)
 
 TO-DO
 
@@ -248,5 +252,29 @@ https://openjdk.java.net/projects/jdk/19/
 * String Templates (Preview) = "Enhance the Java programming language with string templates. String templates complement
   Java's existing string literals and text blocks by coupling literal text with embedded expressions and template
   processors to produce specialized results" (https://openjdk.org/jeps/430)
+
+-------------------------------------------------------------
+
+## Java 22 (non-LTS)
+
+https://openjdk.java.net/projects/jdk/22/
+
+#### GA Date -> March 2024
+
+#### Premier Support Until -> September 2024
+
+#### Extended Support Until -> Not Available
+
+-------------------------------------------------------------
+
+## Java 23 (non-LTS)
+
+https://openjdk.java.net/projects/jdk/23/
+
+#### GA Date -> September 2024
+
+#### Premier Support Until -> March 2025
+
+#### Extended Support Until -> Not Available
 
 -------------------------------------------------------------
