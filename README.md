@@ -210,6 +210,7 @@ https://openjdk.java.net/projects/jdk/18/
 
 #### Extended Support Until -> Not Available
 
+* Specify UTF-8 as the default charset of the standard Java APIs (https://openjdk.org/jeps/400)
 * Simple Web Server (https://openjdk.org/jeps/408)
 * Introduce an @snippet tag for JavaDoc's Standard Doclet, to simplify the inclusion of example source code in API
   documentation.(https://openjdk.org/jeps/413)
@@ -242,6 +243,12 @@ https://openjdk.java.net/projects/jdk/19/
 
 #### Extended Support Until -> September 2031
 
+* Sequenced Collections - Introduce new interfaces to represent collections with a defined encounter order. Each such
+  collection has a well-defined first element, second element, and so forth, up to the last
+  element. (https://openjdk.org/jeps/431)
+* Record Patterns - Enhance the Java programming language with record patterns to deconstruct record values. Record
+  patterns and type patterns can be nested to enable a powerful, declarative, and composable form of data navigation and
+  processing. (https://openjdk.org/jeps/440)
 * Pattern Matching for switch - "Enhance the Java programming language with pattern matching for switch expressions and
   statements. Extending pattern matching to switch allows an expression to be tested against a number of patterns, each
   with a specific action, so that complex data-oriented queries can be expressed concisely and
@@ -265,6 +272,8 @@ https://openjdk.java.net/projects/jdk/22/
 
 #### Extended Support Until -> Not Available
 
+* Unnamed Variables & Patterns - unnamed variables and unnamed patterns, which can be used when variable declarations or nested patterns are required but never used. Both are denoted by the underscore character, _. (https://openjdk.org/jeps/456)
+
 -------------------------------------------------------------
 
 ## Java 23 (non-LTS)
@@ -276,5 +285,7 @@ https://openjdk.java.net/projects/jdk/23/
 #### Premier Support Until -> March 2025
 
 #### Extended Support Until -> Not Available
+
+* Markdown Documentation Comments - Enable JavaDoc documentation comments to be written in Markdown rather than solely in a mixture of HTML and JavaDoc @-tags. (https://openjdk.org/jeps/467)
 
 -------------------------------------------------------------
